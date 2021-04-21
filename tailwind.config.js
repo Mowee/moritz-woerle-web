@@ -4,7 +4,7 @@ module.exports = {
 
     purge: {
         enabled: true,
-        content: ['./public/*.html'],
+        content: ['./src/index.html'],
         options: {
             keyframes: true,
         },
