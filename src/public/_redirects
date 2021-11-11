@@ -3,5 +3,7 @@ https://moritzwoerle.de/* https://moritz-woerle.de/:splat 301!
 https://www.moritzwoerle.de/* https://moritz-woerle.de/:splat 301!
 https://woerle.dev/* https://moritz-woerle.de/:splat 301!
 https://www.woerle.dev/* https://moritz-woerle.de/:splat 301!
+https://woerle.app/* https://moritz-woerle.de/:splat 301!
+https://www.woerle.app/* https://moritz-woerle.de/:splat 301!
 /robots.txt    /robots.txt   200
 /*    /index.html   200
