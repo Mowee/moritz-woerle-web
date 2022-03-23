@@ -5,5 +5,7 @@ https://woerle.dev/* https://moritz-woerle.de/:splat 301!
 https://www.woerle.dev/* https://moritz-woerle.de/:splat 301!
 https://woerle.app/* https://moritz-woerle.de/:splat 301!
 https://www.woerle.app/* https://moritz-woerle.de/:splat 301!
+https://woerle.xyz/* https://moritz-woerle.de/:splat 301!
+https://www.woerle.xyz/* https://moritz-woerle.de/:splat 301!
 /robots.txt    /robots.txt   200
 /*    /index.html   200
