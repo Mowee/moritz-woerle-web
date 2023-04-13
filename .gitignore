@@ -5,3 +5,9 @@
 dist
 dist-ssr
 *.local
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
