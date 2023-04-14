@@ -9,7 +9,7 @@ export default defineNuxtConfig({
         '@nuxt/image-edge',
     ],
     app: {
-        buildAssetsDir: "assets"
+        buildAssetsDir: "static" // Do not use 'assets' this will lead to errors in dev mode
     },
     image: {
         // The screen sizes predefined by `@nuxt/image`:
