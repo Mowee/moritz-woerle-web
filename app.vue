@@ -40,7 +40,7 @@ useHead({
         { rel: 'manifest', href: '/favicon/site.webmanifest' },
     ],
     bodyAttrs: {
-        class: 'dark:bg-gray-900 dark:text-gray-200'
+        class: 'dark:bg-gray-900 dark:text-gray-200 bg-slate-100 text-gray-800'
     },
 })
 </script>
