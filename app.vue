@@ -15,10 +15,10 @@
             </div>
         </div>
         <div class="h-2/4 xl:h-full xl:w-1/2 overflow-hidden">
-            <img class="object-cover h-full w-full"
-                 sizes="(max-width: 2500px) 100vw, 2500px"
-                 src="@/assets/banner_original.jpg"
-                 alt="Port of Hamburg">
+            <nuxt-img class="object-cover h-full w-full"
+                 sizes="6xl:100vw 5xl:100vw 4xl:100vw 3xl:100vw 2xl:100vw xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                 src="/images/banner_original.jpg"
+                 alt="Port of Hamburg" />
         </div>
     </div>
 </template>
