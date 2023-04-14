@@ -1,4 +1,8 @@
 <template>
+    <Head>
+        <Title>Moritz Wörle</Title>
+    </Head>
+
     <div class="h-screen flex flex-col-reverse xl:flex-row-reverse">
         <div class="h-2/4 xl:h-full xl:w-1/2 flex">
             <div class="m-auto font-sans text-center xl:text-left">
@@ -18,5 +22,25 @@
         </div>
     </div>
 </template>
+
 <script setup lang="ts">
+useHead({
+    htmlAttrs: [
+        { lang: 'en' }
+    ],
+    meta: [
+        { charset: 'UTF-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+    ],
+    link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },
+        { rel: 'apple-touch-icon', type: 'image/png', href: '/favicon/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/png', sizes: "32x32", href: '/favicon/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', sizes: "16x16", href: '/favicon/favicon-16x16.png' },
+        { rel: 'manifest', href: '/favicon/site.webmanifest' },
+    ],
+    bodyAttrs: {
+        class: 'dark:bg-gray-900 dark:text-gray-200'
+    },
+})
 </script>
