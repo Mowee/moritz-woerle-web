@@ -12,6 +12,14 @@
                 <p class="text-lg md:text-xl lg:text-2xl py-6">
                     Software developer from Hamburg, Germany
                 </p>
+                <div class="text-center flex gap-x-3">
+                    <a href="#" class="dark:text-gray-900 dark:bg-gray-200 text-slate-100 bg-gray-800 rounded-full p-2">
+                        <IconGitHub class="h-5 w-5" />
+                    </a>
+                    <a href="#" class="dark:text-gray-900 dark:bg-gray-200 text-slate-100 bg-gray-800 rounded-full p-2">
+                        <IconEMail class="h-5 w-5" />
+                    </a>
+                </div>
             </div>
         </div>
         <div class="h-2/4 xl:h-full xl:w-1/2 overflow-hidden">
