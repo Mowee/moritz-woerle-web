@@ -4,25 +4,28 @@
     </Head>
 
     <div class="h-screen flex flex-col-reverse xl:flex-row-reverse">
-        <div class="h-2/4 xl:h-full xl:w-1/2 flex">
-            <div class="m-auto font-sans text-center xl:text-left">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
+        <div class="h-3/5 md:h-2/4 xl:h-full xl:w-1/2 flex">
+            <div class="m-auto p-8 font-sans">
+                <h1 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
                     Moritz Wörle
                 </h1>
-                <p class="text-lg md:text-xl lg:text-2xl py-6">
+                <p class="text-lg font-bold md:text-xl lg:text-2xl mt-2 md:mt-4 xl:mt-6">
                     Software developer from Hamburg, Germany
                 </p>
-                <div class="text-center flex gap-x-3">
-                    <a href="#" class="dark:text-gray-900 dark:bg-gray-200 text-slate-100 bg-gray-800 rounded-full p-2">
-                        <IconGitHub class="h-5 w-5" />
-                    </a>
-                    <a href="#" class="dark:text-gray-900 dark:bg-gray-200 text-slate-100 bg-gray-800 rounded-full p-2">
-                        <IconEMail class="h-5 w-5" />
-                    </a>
+                <ul class="mt-2">
+                    <li>Working on a distributed logistic system <span class="italic">(Kotlin, GCP)</span> as tech lead of a small team at my main job.</li>
+                    <li>In the past I've worked with Kotlin, Java, TypeScript, PHP.</li>
+                    <li>I've started programming when I was about 12 years old because of my fascination for the Simpsons.</li>
+                    <li>In my free time I still work on my fan project <a href="https://simpsons-tv.de/" class="underline hover:no-underline">SimpsonsTV</a> <span class="italic">(Kotlin, Vue.js, GCP)</span></li>
+                </ul>
+                <div class="mt-4 flex gap-x-3">
+                    <ReferenceButton icon="IconGitHub" title="GitHub" url="https://github.com/Mowee" />
+                    <ReferenceButton icon="IconLinkedIn" title="LinkedIn" url="https://www.linkedin.com/in/moritz-w%C3%B6rle-7b7a82205" />
+                    <ReferenceButton icon="IconXing" title="Xing" url="https://www.xing.com/profile/Moritz_Woerle/cv" />
                 </div>
             </div>
         </div>
-        <div class="h-2/4 xl:h-full xl:w-1/2 overflow-hidden">
+        <div class="h-2/5 md:h-2/4 xl:h-full xl:w-1/2 overflow-hidden">
             <nuxt-img class="object-cover h-full w-full"
                  sizes="6xl:100vw 5xl:100vw 4xl:100vw 3xl:100vw 2xl:100vw xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
                  src="/images/banner_original.jpg"
