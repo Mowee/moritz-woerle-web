@@ -1,5 +1,5 @@
 <template>
-    <a :href="url" class="dark:text-gray-900 dark:bg-gray-200 text-slate-100 bg-gray-800 rounded-full p-2 flex items-center">
+    <a :href="url" class="text-gray-900 bg-gray-200 rounded-full p-2 flex items-center">
         <Component :is="icon" class="h-5 w-5 mr-2" />
         {{ title }}
     </a>

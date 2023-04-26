@@ -4,7 +4,7 @@
     </Head>
 
     <div class="h-screen flex flex-col-reverse xl:flex-row-reverse">
-        <div class="h-3/5 md:h-2/4 xl:h-full xl:w-1/2 flex">
+        <div class="h-3/5 md:h-2/4 xl:h-full xl:w-1/2 flex bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-700/50 via-blue-800/50 to-gray-900/50">
             <div class="m-auto p-8 font-sans">
                 <h1 class="text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
                     Moritz Wörle
@@ -51,7 +51,7 @@ useHead({
         { rel: 'manifest', href: '/favicon/site.webmanifest' },
     ],
     bodyAttrs: {
-        class: 'dark:bg-gray-900 dark:text-gray-200 bg-slate-100 text-gray-800'
+        class: 'bg-gray-900 text-gray-200'
     },
 })
 </script>
