@@ -4,6 +4,6 @@
 
 <script lang="ts">
 export default {
-    name: 'IconLinkedIn'
+    name: 'IconXing'
 }
 </script>
